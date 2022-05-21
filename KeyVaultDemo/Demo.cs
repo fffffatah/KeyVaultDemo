@@ -22,7 +22,7 @@ namespace KeyVaultDemo
         }
 
         [Function("Demo")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", Route = "keyvault/demo")] HttpRequestData req)
+        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "keyvault/demo")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
 
