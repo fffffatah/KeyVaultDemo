@@ -1,2 +1,3 @@
 # KeyVaultDemo
 A KeyVaultDemo to Streamline Managing App Secrets
+[![Build and Deploy](https://github.com/fffffatah/KeyVaultDemo/actions/workflows/master_bskeyvaultdemo.yml/badge.svg)](https://github.com/fffffatah/KeyVaultDemo/actions/workflows/master_bskeyvaultdemo.yml)
